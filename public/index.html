@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/main.min.css">
+    <link rel="icon" href="" >
+    <title>Main</title>
+</head>
+<body>
+    <div class="main d-flex flex-column align-items-center">
+        <h1 class="mb-3">Список дел</h1>
+        <div class="col-2"><input  id="input-task-text" type="text" class="form-control " placeholder="Задание" aria-label="Задание"></div> <br>
+        <div class="buttons mb-3">
+            <button id="task-add" class="btn btn-danger rounded-pill mx-2">Добавить</button>
+            <button id="task-show" class="btn btn-danger rounded-pill mx-2">Отобразить</button>
+        </div>
+        <div id="success-of-adding-element" class="p-3 border rounded-3 border-3 border-opacity-100 text-center text-bg-secondary">Элемент был добавлен</div>
+        <ol id="task-list"></ul>
+    </div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+<script src="JS/bootstrap.bundle.min.js"></script>
+<script src="JS/bootstrap.min.js"></script>
+<script src="JS/index.js"></script>
+</body>
+</html>
